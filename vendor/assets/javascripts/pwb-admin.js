@@ -1299,7 +1299,7 @@ define("inmo1-client/adapters/application", [
             e.renderMap();
           }),
             $.getScript(
-              "https://maps.googleapis.com/maps/api/js?key=AIzaSyCPorm8YzIaUGhKfe5cvpgofZ_gdT8hdZw&v=3.exp&sensor=false&callback=map_callback&libraries=places"
+              "https://maps.googleapis.com/maps/api/js?key=AIzaSyDv76Ke07BbKYJBpAecTcMGIjXgpO5p4yM&v=3.exp&sensor=false&callback=map_callback&libraries=places"
             );
         } else this.renderMap();
       }.on("didInsertElement"),
