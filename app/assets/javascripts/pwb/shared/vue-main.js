@@ -1,20 +1,18 @@
 var INMOAPP = INMOAPP || {};
 
-
-window.onload = function() {
-
-  var pwbSS = Vue.component('social-sharing', SocialSharing);
+window.onload = function () {
+  var pwbSS = Vue.component("social-sharing", SocialSharing);
   // var pwbGM = Vue.component('gmap-map', VueGoogleMaps);
   Vue.use(VueGoogleMaps, {
     load: {
-      key: 'AIzaSyCPorm8YzIaUGhKfe5cvpgofZ_gdT8hdZw'
+      key: "AIzaSyDv76Ke07BbKYJBpAecTcMGIjXgpO5p4yM",
       // v: '3.26', // Google Maps API version
       // libraries: 'places',   // If you want to use places input
-    }
+    },
   });
   var markers = INMOAPP.markers || [];
   INMOAPP.pwbVue = new Vue({
-    el: '#main-vue',
+    el: "#main-vue",
     data: {
       // markers: markers,
       // selected: 2,
@@ -25,7 +23,7 @@ window.onload = function() {
       //   { id: 1, text: 'Hello' },
       //   { id: 2, text: 'World' }
       // ]
-    }
+    },
   });
   // $('select').material_select();
-}
+};
