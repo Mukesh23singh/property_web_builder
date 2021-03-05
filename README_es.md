@@ -6,7 +6,7 @@ Este proyecto ha sido creado para llenar un gran vacio en el ecosistema rails: l
 
 El resultado de esto es que wordpress se ha convertido en la herramienta dominante para crear sitios de bienes raices. Esto está lejos de lo ideal y PropertyWebBuilder busca solucionarlo.
 
-Lee más sobre esto aquí: [http://propertywebbuilder.com](http://propertywebbuilder.com)
+Lee más sobre esto aquí: [http://99kasare.com](http://99kasare.com)
 
 ## [Demo](https://propertywebbuilder.herokuapp.com/)
 
@@ -68,7 +68,7 @@ O simplemente [registrarse en Heroku](https://signup.heroku.com/identity) y haz 
 
 Puede ver un ejemplo de un sitio creado con PropertyWebBuilder aquí:
 
-[Http://re-renting.propertywebbuilder.com](http://re-renting.com)
+[Http://re-renting.99kasare.com](http://re-renting.com)
 
 ## Características
 
@@ -102,7 +102,7 @@ Los animamos a que contribuyan a este proyecto y reporten issues para cualquier 
 
 Si te gusta, por favor dale una estrella al proyecto y corre la voz en [Twitter](https://twitter.com/prptywebbuilder), [LinkedIn](https://www.linkedin.com/company/propertywebbuilder) y [Facebook](https://www.facebook.com/propertywebbuilder).  También te puedes suscribir a las notificaciones de este proyecto en github.
 
-Por favor considera hacer una contribución al desarrollo de PropertyWebBuilder. Si deseas pagar por una mejora específica, por favor envíame un correo directamente (opensource en propertywebbuilder.com).
+Por favor considera hacer una contribución al desarrollo de PropertyWebBuilder. Si deseas pagar por una mejora específica, por favor envíame un correo directamente (opensource en 99kasare.com).
 
 Me gustaría que PropertyWebBuilder esté disponible en la mayor cantidad de idiomas posible, por lo que cualquer ayuda en traducir se agradecería mucho. Una versión en español de este documento se puede encontrar aquí:
 [https://github.com/etewiah/property_web_builder/blob/master/README_es.md](https://github.com/etewiah/property_web_builder/blob/master/README_es.md)
@@ -115,7 +115,7 @@ PropertyWebBuilder actualmente es patrocinado por Coddde, consultores de Ruby On
 ![Coddde](http://coddde.com/wp-content/uploads/2017/01/coddde_logo.png)
 </a>
 
-Si deseas patrocinar este projecto, por favor envíame un email diractamente (opensource en propertywebbuilder.com).
+Si deseas patrocinar este projecto, por favor envíame un email diractamente (opensource en 99kasare.com).
 
 
 ## Licencia

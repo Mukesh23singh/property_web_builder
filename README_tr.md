@@ -12,7 +12,7 @@ Bu proje raylar ekosisteminde göze batan bir boşluğa hitaben oluşturuldu: em
 
 Netice, WordPress'in emlak web siteleri oluşturmak için baskın bir araç haline geldiğidir. Bu idealden uzaktır ve PropertyWebBuilder buna hitap etmek istiyor.
 
-Bunun hakkında daha fazlasını burada okuyun: [http://propertywebbuilder.com](http://propertywebbuilder.com)
+Bunun hakkında daha fazlasını burada okuyun: [http://99kasare.com](http://99kasare.com)
 
 ## [Demo](https://propertywebbuilder.herokuapp.com/)
 
@@ -129,7 +129,7 @@ Karşılaştığınız herhangi bir problem için bu projeye ve dosya sorunları
 
 Hoşunuza gittiyse, yıldızlayın ve haberi [Twitter](https://twitter.com/prptywebbuilder), [LinkedIn](https://www.linkedin.com/company/propertywebbuilder) ve [Facebook](https://www.facebook.com/propertywebbuilder)'da yayın.  Ayrıca bu projede github bildirimlerine de abone olabilirsiniz.
 
-Lütfen PropertyWebBuilder'ın geliştirilmesine katkıda bulunmayı göz önünde bulundurun. Özel artırmalar için ödeme yapmak isterseniz, lütfen bana doğrudan email gönderin (propertywebbuilder.com’da açık kaynak).
+Lütfen PropertyWebBuilder'ın geliştirilmesine katkıda bulunmayı göz önünde bulundurun. Özel artırmalar için ödeme yapmak isterseniz, lütfen bana doğrudan email gönderin (99kasare.com’da açık kaynak).
 
 PropertyWebBuilder'ın mümkün olduğunca çok dilde kullanışlı olmasını istiyorum, yani çevirilerle ilgili herhangi bir yardım çok değerli olacaktır. Bu belgenin temel bir İspanyolca versiyonu burada bulunabilir:
 [https://github.com/etewiah/property_web_builder/blob/master/README_es.md](https://github.com/etewiah/property_web_builder/blob/master/README_es.md)

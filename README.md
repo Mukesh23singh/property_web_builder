@@ -23,7 +23,7 @@ This project has been created to address a glaring gap in the rails ecosystem: t
 
 The result is that WordPress has become the dominant tool for creating real estate websites.  This is far from ideal and PropertyWebBuilder seeks to address this.
 
-Read more about this here: [http://propertywebbuilder.com](http://propertywebbuilder.com)
+Read more about this here: [http://99kasare.com](http://99kasare.com)
 
 ## [Demo](https://propertywebbuilder.herokuapp.com/)
 
@@ -139,7 +139,7 @@ We encourage you to contribute to this project and file issues for any problems 
 
 If you like it, please star it and spread the word on [Twitter](https://twitter.com/prptywebbuilder), [LinkedIn](https://www.linkedin.com/company/propertywebbuilder) and [Facebook](https://www.facebook.com/propertywebbuilder).  You can also subscribe to github notifications on this project.
 
-Please consider making a contribution to the development of PropertyWebBuilder.  If you wish to pay for specific enhancements, please email me directly (opensource at propertywebbuilder.com).
+Please consider making a contribution to the development of PropertyWebBuilder.  If you wish to pay for specific enhancements, please email me directly (opensource at 99kasare.com).
 
 I would like PropertyWebBuilder to be available in as many languages as possible so any help with translations will be much appreciated.  A basic Spanish version of this document can be found here:
 [https://github.com/etewiah/property_web_builder/blob/master/README_es.md](https://github.com/etewiah/property_web_builder/blob/master/README_es.md)

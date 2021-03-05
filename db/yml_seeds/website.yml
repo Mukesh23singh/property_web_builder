@@ -1,15 +1,15 @@
 analytics_id:
 analytics_id_type:
-company_display_name: Example Real Estate
+company_display_name: 99kasareal Estate
 email_for_general_contact_form:
 email_for_property_contact_form:
 # contact_address_id:
 flags: 0
 configuration: {}
-style_variables_for_theme: {      
+style_variables_for_theme: {
   default:  {
       primary_color: "#008000",
-      secondary_color: "#8ec449", 
+      secondary_color: "#8ec449",
       labels_text_color: "#fff",
       footer_bg_color: "#333",
       footer_main_text_color: "#fff",
@@ -19,8 +19,8 @@ style_variables_for_theme: {
       # theme: "light"
     }
   }
-google_font_name: 
-theme_name: 
+google_font_name:
+theme_name:
 supported_currencies: []
 supported_locales: ["en-US","es-MX"]
 default_client_locale: "en-US"

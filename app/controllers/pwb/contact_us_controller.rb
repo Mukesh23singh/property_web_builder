@@ -81,7 +81,7 @@ module Pwb
 
       unless @current_agency.email_for_general_contact_form.present?
         # in case a delivery email has not been set
-        @enquiry.delivery_email = "no_delivery_email@propertywebbuilder.com"
+        @enquiry.delivery_email = "no_delivery_email@99kasare.com"
       end
 
       @enquiry.contact = @contact

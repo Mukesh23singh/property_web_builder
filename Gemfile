@@ -64,7 +64,7 @@ group :development, :test do
 
   gem 'rails-perftest'
   gem 'ruby-prof', '0.15.9'
-
+  gem 'selenium-webdriver'
   gem 'apparition'
 end
 

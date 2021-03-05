@@ -38,7 +38,7 @@ Rails.application.configure do
   config.action_mailer.smtp_settings = {
     :address => "smtp.sendgrid.net",
     :port => 25,
-    :domain => "propertywebbuilder.com",
+    :domain => "99kasare.com",
     :authentication => :plain,
     :user_name => Rails.application.secrets.sendgrid_username,
     :password => Rails.application.secrets.sendgrid_password
@@ -65,10 +65,10 @@ Rails.application.configure do
   #   port: "587",
   #   user_name: Rails.application.secrets.smtp_user
   # }
-  # config.action_mailer.default_url_options = { host: "propertywebbuilder.com" }
+  # config.action_mailer.default_url_options = { host: "99kasare.com" }
   # to allow links in template like:
   # <%= link_to 'welcome', welcome_url %>
-  # config.action_mailer.asset_host = 'http://propertywebbuilder.com'
+  # config.action_mailer.asset_host = 'http://99kasare.com'
   # Now you can display an image inside your email.
   # <%= image_tag 'image.jpg' %>
 

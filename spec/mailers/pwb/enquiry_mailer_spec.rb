@@ -13,21 +13,21 @@ module Pwb
     # end
 
     describe 'general enquiry' do
-      let(:contact) { Contact.new(first_name: "John Doe", primary_phone_number: "22 44", primary_email: "jd@propertywebbuilder.com") }
-      let(:message) { Message.new(origin_email: "jd@propertywebbuilder.com", delivery_email: "test@test.com") }
+      let(:contact) { Contact.new(first_name: "John Doe", primary_phone_number: "22 44", primary_email: "jd@99kasare.com") }
+      let(:message) { Message.new(origin_email: "jd@99kasare.com", delivery_email: "test@test.com") }
       let(:mail) { EnquiryMailer.general_enquiry_targeting_agency(contact, message).deliver_now }
 
       it "sends enquiry successfully" do
         expect(mail.subject).to eq("General enquiry from your website")
         expect(mail.to).to eq(["test@test.com"])
-        expect(mail.from).to eq(["jd@propertywebbuilder.com"])
+        expect(mail.from).to eq(["jd@99kasare.com"])
       end
     end
 
 
     describe 'property enquiry' do
-      let(:contact) { Contact.new(first_name: "John Doe", primary_phone_number: "22 44", primary_email: "jd@propertywebbuilder.com") }
-      let(:message) { Message.new(origin_email: "jd@propertywebbuilder.com", delivery_email: "test@test.com") }
+      let(:contact) { Contact.new(first_name: "John Doe", primary_phone_number: "22 44", primary_email: "jd@99kasare.com") }
+      let(:message) { Message.new(origin_email: "jd@99kasare.com", delivery_email: "test@test.com") }
       let(:prop) { FactoryGirl.create(:pwb_prop, title: "Charming flat for sale") }
 
       let(:mail) { EnquiryMailer.property_enquiry_targeting_agency(contact, message, prop).deliver_now }
@@ -37,7 +37,7 @@ module Pwb
       it "sends enquiry successfully" do
         expect(mail.subject).to eq("Enquiry regarding a property")
         expect(mail.to).to eq(["test@test.com"])
-        expect(mail.from).to eq(["jd@propertywebbuilder.com"])
+        expect(mail.from).to eq(["jd@99kasare.com"])
       end
 
       it "renders the body" do

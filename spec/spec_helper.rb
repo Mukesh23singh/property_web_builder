@@ -52,8 +52,10 @@ WebMock.disable_net_connect!(allow_localhost: true)
 
 require "capybara/apparition"
 
+Selenium::WebDriver::Firefox::Binary.path = "/mnt/c/Program Files/Firefox Developer Edition/firefox.exe"
+
 Capybara.register_driver :apparition do |app|
-  options = {}
+  options = {:inspector => true}
   Capybara::Apparition::Driver.new(app, options)
 end
 

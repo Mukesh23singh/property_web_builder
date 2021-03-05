@@ -7,7 +7,7 @@
 К сожалению его решение далеко от иделала. Чтобы компенсировать этот недостаток, проект PropertyBuilder пытается решить эту проблему. 
 Данный проект написан с открытым исходным кодом на фреймворке Ruby On Rails.
 
-Более подробнее можно прочить здесь: [http://propertywebbuilder.com](http://propertywebbuilder.com)
+Более подробнее можно прочить здесь: [http://99kasare.com](http://99kasare.com)
 
 ##[Demo](https://propertywebbuilder.herokuapp.com/)
 
