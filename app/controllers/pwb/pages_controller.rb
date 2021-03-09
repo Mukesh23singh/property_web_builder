@@ -20,9 +20,13 @@ module Pwb
           @content_to_show.push page_content.content.raw
         end
       end
-
-      render "/pwb/pages/show"
+      if params[:page_slug] == 'sell'
+        render "/pwb/pages/show_sell_page"
+      else
+        render "/pwb/pages/show"
+      end
     end
+
 
     private
 

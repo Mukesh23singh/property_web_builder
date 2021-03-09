@@ -3,8 +3,13 @@
   <%= simple_form_for :search, :url => "/#{I18n.locale}/buy", :method => 'get', 
   :html => { :class => 'form-base' }, :remote => false do |f| %>
     <div class="panel-body" style="padding:25px;">
-      <div class="form-group" style="display:none;">
-        <input type="text" class="form-control input-lg" placeholder="I would like to buy ...">
+      <div class="row">
+        <div class="col-md-6">
+          <%= f.input :for_sale_price_from, collection: @prices_collection, :required => false, selected: '50.000', input_html: { maxlength: 20 } %>
+        </div>
+        <div class="col-md-6">
+          <%= f.input :for_sale_price_till, collection: @prices_collection, :required => false , selected: '150.000', input_html: { maxlength: 20 } %>
+        </div>
       </div>
       <div class="row">
         <div class="col-md-6">
